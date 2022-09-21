@@ -27,12 +27,12 @@ $ sh <(curl -L https://nixos.org/nix/install) --no-daemon
 ```
 More info here:
 https://nixos.org/download.html
-and here:
-https://nixos.org/manual/nix/unstable/
 
 Then cd into the directory you want in you terminal and run:
 ```sh
-
-
-
+nix flake init --template github:BattleCh1cken/pros-nix-template#template
+nix develop
 ```
+If your interesting in learning more look here:
+https://nixos.org/manual/nix/unstable/
+Happy coding!
