@@ -34,5 +34,7 @@ nix flake init --template github:BattleCh1cken/pros-nix-template#template
 nix develop
 ```
 If your interesting in learning more look here:
+
 https://nixos.org/manual/nix/unstable/
+
 Happy coding!
