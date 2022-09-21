@@ -3,7 +3,9 @@
 
 
 Are you tired of running 
+
 > sudo pacman -Syu
+
 and your entire working environment breaking?
 
 Well worry no longer! Nix is here to save the day!
