@@ -15,7 +15,7 @@ Nix is a way to declaritivly lock dependencies! All the inputs are stored in a l
 Nix makes it so that all your packages are local to your programming env, not global.
 Similar to venv for python. Except it works for the over 80,000 packages in the Nix repository.
 
-Nix is available for ~~all~~ most linux distros, macOS and is even a standalone distro!
+Nix is available for ~~all~~ most linux distros, macOS and is even a standalone distro! If you want to use windows, use WSL.
 To get started install nix with your package manager:
 ```sh
 #pacman
