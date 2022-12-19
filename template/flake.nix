@@ -19,8 +19,8 @@
             hash = "sha256-THxOybW2KdWDCXwM91zPG6geyETP0DlalTLnmnYNazo=";
           };
           patches = [
-            ./dependencies.patch
-            ./version.patch
+            ./pros-patches/version.patch
+            ./pros-patches/dependencies.patch
           ];
           propagatedBuildInputs = with pkgs.python310Packages; [
             click
